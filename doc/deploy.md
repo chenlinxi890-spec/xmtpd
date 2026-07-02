@@ -1,6 +1,6 @@
-# Deploy a local environment for developing with xmtpd
+﻿# Deploy a local environment for developing with xmtpd
 
-**⚠️ Experimental:** This file might be out of date!
+**鈿狅笍 Experimental:** This file might be out of date!
 
 This document describes how to deploy a local environment for developing with xmtpd.
 
@@ -19,7 +19,7 @@ Use one of the following methods to deploy a local environment:
 
 You can use the XMTP Contracts Image to deploy a local environment, and test `xmtpd` with it.
 
-The XMTP Contracts Image [documentation](https://github.com/xmtp/smart-contracts/blob/main/doc/xmtp-contracts-image.md#using-the-image) contains the deterministic addresses where all the contracts are deployed, to ease the setup step.
+The XMTP Contracts Image [documentation](https://github.com/xmtp/smart-contracts/blob/main/doc/deployment.md) contains the deterministic addresses where all the contracts are deployed, to ease the setup step.
 
 By default, `dev/local.env` contains sane values for local deployments. Modify what's necessary.
 
@@ -114,3 +114,4 @@ status: SERVING
 grpc-health-probe -tls -addr grpc2.testnet.xmtp.network:443
 status: SERVING
 ```
+
